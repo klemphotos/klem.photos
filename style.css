@@ -1,0 +1,214 @@
+body {
+	background-color: #FDF4E3;
+	font-family: 'Bebas Kai', sans-serif;
+    color: #ffd077;
+}
+
+.imgaccueil {
+    height: 300px;
+}
+
+div {
+    display: inline-block;
+    padding: 30px;
+}
+
+nav
+{
+    background-color: #fadfac;
+    width: 101%;
+    color: white;
+	margin-left: -10px;
+	margin-top: -10px;
+	padding-right: 10px;
+}
+
+
+nav li.klemphotos {
+    list-style-type: none;
+    text-align: center;
+    font-size: 110%;
+    margin-right: 200px;
+}
+
+nav ul
+{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav li.menu
+{
+    list-style-type: none;
+    float: left;
+    font-size: 100%;
+}
+
+nav a
+{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+}
+
+.menu :hover
+{
+    background-color: #fed78e;
+    transition: ease;
+    transition-duration: 0.4s;
+}
+
+.presentationposter :hover {
+    cursor: pointer;  
+}
+
+a {
+    text-decoration: none;
+    color: #ffd077;
+}
+
+.imgaccueil:hover {
+    height: 320px;
+    transition: ease;
+    transition-duration : 400ms;
+}
+
+.imgdetail {
+    height: 550px;
+}
+
+.detailposter {
+    text-align: left;
+    float: right;
+    flex: auto;
+    position: absolute;
+}
+
+.detailposterall {
+    padding-top: 15px;
+}
+
+table {
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    width:100%;
+    border-collapse: collapse;
+}
+
+td {
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    padding : 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.papier {
+    font-size: 0.9em;
+}
+
+th {
+    border-width:1px; 
+    border-style:solid; 
+    border-color:black;
+    padding : 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contacttel {
+    display: none;
+}
+
+@media screen and (max-device-width: 480px) {
+    .menu {
+        display: none;
+    }
+
+    nav li.klemphotos {
+        font-size: 5em;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    nav {
+        position: fixed;
+    }
+
+    .presentationposter {
+        margin-top: 120px;
+    }
+
+    .contacttel {
+        display: inline-flex;
+        font-size: 3em;
+        float: right;
+        margin-top: -115px;
+    }
+
+    .imgaccueil {
+        height: 730px;
+    }
+
+    .presentationposter {
+        font-size: 2.5em;
+    }
+
+    .contacter {
+        font-size: 3em;
+        display: inline-block;
+        margin-top: 120px;
+    }    
+
+    .imgdetail {
+        height: 900px;
+        display: block;
+        margin-left: 200px;
+    }
+    
+    .detailposter {
+        text-align: left;
+        float: right;
+        flex: auto;
+        position: absolute;
+        font-size: 2em;
+    }
+    
+    .detailposterall {
+        margin-top: 150px;
+    }
+    
+    table {
+        border-width:2px; 
+        border-style:solid; 
+        border-color:black;
+        width:100%;
+        border-collapse: collapse;
+    }
+    
+    td {
+        border-width:2px; 
+        border-style:solid; 
+        border-color:black;
+        padding : 3px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .papier {
+        font-size: 0.9em;
+    }
+    
+    th {
+        border-width:1px; 
+        border-style:solid; 
+        border-color:black;
+        padding : 3px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
