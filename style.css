@@ -1,3 +1,10 @@
+@font-face {
+    font-family:Horizon;
+    src: url("./font/horizon.otf");
+}
+
+
+
 body {
 	background-color: #FDF4E3;
 	font-family: 'Bebas Kai', sans-serif;
@@ -6,6 +13,14 @@ body {
 
 .imgaccueil {
     height: 300px;
+}
+
+.imgaccueil34 {
+    height: 250px;
+}
+
+.imgaccueilh {
+    height: 183px;
 }
 
 div {
@@ -27,8 +42,10 @@ nav
 nav li.klemphotos {
     list-style-type: none;
     text-align: center;
-    font-size: 110%;
-    margin-right: 200px;
+    font-size: 210%;
+    margin-right: 320px;
+    margin-top: -11px;
+    margin-bottom: -25px;
 }
 
 nav ul
@@ -75,8 +92,31 @@ a {
     transition-duration : 400ms;
 }
 
+.imgaccueil34:hover {
+    height: 270px;
+    transition: ease;
+    transition-duration : 400ms;
+}
+
+.imgaccueilh:hover {
+    transition: ease;
+    transition-duration : 400ms;
+}
+
 .imgdetail {
     height: 550px;
+}
+
+.imgdetail34 {
+    height: 500px;
+    margin-top: 58px;
+}
+
+.imgdetailh {
+    height: 350px;
+    margin-top: 58px;
+    display: block;
+    margin-left: 300px;
 }
 
 .detailposter {
@@ -137,15 +177,20 @@ th {
     display: none;
 }
 
+
+
+
 @media screen and (max-device-width: 480px) {
     .menu {
         display: none;
     }
 
     nav li.klemphotos {
-        font-size: 5em;
+        font-size: 7em;
         margin-right: 0px;
         text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
     }
 
     nav {
@@ -158,13 +203,17 @@ th {
 
     .contacttel {
         display: inline-flex;
-        font-size: 3em;
+        font-size: 5em;
         float: right;
-        margin-top: -115px;
+        margin-top: -150px;
     }
 
     .imgaccueil {
         height: 730px;
+    }
+
+    .imgaccueilh {
+        height: 450px;
     }
 
     .presentationposter {
@@ -178,9 +227,9 @@ th {
     }    
 
     .imgdetail {
-        height: 900px;
+        height: 1200px;
         display: block;
-        margin-left: 200px;
+        margin-left: 300px;
     }
     
     .detailposter {
@@ -188,11 +237,11 @@ th {
         float: right;
         flex: auto;
         position: absolute;
-        font-size: 2em;
+        font-size: 2.5em;
     }
     
     .detailposterall {
-        margin-top: 150px;
+        margin-top: 270px;
     }
     
     table {
@@ -234,9 +283,9 @@ th {
 
     .shootingtel {
         display: inline-flex;
-        font-size: 3em;
+        font-size: 5em;
         float: left;
-        margin-top: -115px;
+        margin-top: -150px;
     }
 
     .shooting {
@@ -244,5 +293,21 @@ th {
         display: inline-block;
         margin-top: 120px;
     }  
+
+    .imgaccueil34 {
+        height: 590px;
+    }
+
+    .imgdetail34 {
+        height: 1200px;
+        display: block;
+        margin-left: 230px;
+    }
+
+    .imgdetailh {
+        height: 650px;
+        display: block;
+        margin-left: 85px;
+    }
     
 }
