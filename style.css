@@ -12,7 +12,7 @@ body {
 }
 
 .imgaccueil {
-    height: 300px;
+    height: 280px;
 }
 
 .imgaccueil34 {
@@ -20,7 +20,7 @@ body {
 }
 
 .imgaccueilh {
-    height: 183px;
+    height: 210px;
 }
 
 div {
@@ -87,7 +87,7 @@ a {
 }
 
 .imgaccueil:hover {
-    height: 320px;
+    height: 282px;
     transition: ease;
     transition-duration : 400ms;
 }
@@ -213,7 +213,7 @@ th {
     }
 
     .imgaccueilh {
-        height: 450px;
+        height: 480px;
     }
 
     .presentationposter {
@@ -229,7 +229,7 @@ th {
     .imgdetail {
         height: 1200px;
         display: block;
-        margin-left: 300px;
+        margin-left: 250px;
     }
     
     .detailposter {
@@ -307,7 +307,7 @@ th {
     .imgdetailh {
         height: 650px;
         display: block;
-        margin-left: 85px;
+        margin-left: 170px;
     }
     
 }
