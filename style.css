@@ -3,16 +3,41 @@
     src: url("./font/horizon.otf");
 }
 
+@font-face {
+    font-family:coolvetica;
+    src: url("./font/coolveticarg.otf");
+}
+
+@font-face {
+    font-family:kenyan;
+    src: url("./font/kenyancoffee.otf");
+}
+
+@font-face {
+    font-family:futura;
+    src: url("./font/Futura\ Bold\ font.ttf");
+}
+
+@font-face {
+    font-family:montserrat;
+    src: url("./font/Montserrat-Bold.ttf");
+}
+
+
 
 
 body {
-	background-color: #FDF4E3;
+	background-color: rgb(11, 11, 11);
 	font-family: 'Bebas Kai', sans-serif;
-    color: #ffd077;
+    color: white;
 }
 
 .imgaccueil {
     height: 280px;
+}
+
+.imgaccueiltshirt {
+    height: 300px;
 }
 
 .imgaccueil34 {
@@ -30,7 +55,7 @@ div {
 
 nav
 {
-    background-color: #fadfac;
+    background-color: black;
     width: 101%;
     color: white;
 	margin-left: -10px;
@@ -43,7 +68,7 @@ nav li.klemphotos {
     list-style-type: none;
     text-align: center;
     font-size: 210%;
-    margin-right: 320px;
+    margin-right: 415px;
     margin-top: -11px;
     margin-bottom: -25px;
 }
@@ -72,9 +97,10 @@ nav a
 
 .menu :hover
 {
-    background-color: #fed78e;
+    background-color: white;
     transition: ease;
     transition-duration: 0.4s;
+    color: black;
 }
 
 .presentationposter :hover {
@@ -83,7 +109,7 @@ nav a
 
 a {
     text-decoration: none;
-    color: #ffd077;
+    color:white;
 }
 
 .imgaccueil:hover {
@@ -112,6 +138,12 @@ a {
     margin-top: 58px;
 }
 
+.imgdetailtshirt {
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
 .imgdetailh {
     height: 350px;
     margin-top: 58px;
@@ -130,10 +162,18 @@ a {
     padding-top: 15px;
 }
 
+.detailtshirtall {
+    padding-top: 15px;
+}
+
+.detailtshirt {
+    display: inline-block;
+}
+
 table {
     border-width:1px; 
     border-style:solid; 
-    border-color:black;
+    border-color:white;
     width:100%;
     border-collapse: collapse;
 }
@@ -141,7 +181,7 @@ table {
 td {
     border-width:1px; 
     border-style:solid; 
-    border-color:black;
+    border-color:white;
     padding : 3px;
     padding-left: 20px;
     padding-right: 20px;
@@ -154,7 +194,8 @@ td {
 th {
     border-width:1px; 
     border-style:solid; 
-    border-color:black;
+    border-color:white
+    ;
     padding : 3px;
     padding-left: 20px;
     padding-right: 20px;
@@ -166,8 +207,8 @@ th {
 
 .form {
     font-family: 'Bebas Kai', sans-serif;
-    background-color: #ffe8ba;
-    border-color: black;
+    background-color: black;
+    border-color: white;
     border-width: 1px;
     border-radius: 3px;
     padding: 5px;
@@ -177,21 +218,57 @@ th {
     display: none;
 }
 
+.tshirttel {
+    display: none;
+}
+
+.logopng {
+    height: 100px;
+    display: none;
+}
+
+select {
+    font-size: 1em;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Bebas Kai', sans-serif;
+    border-color: white;
+    color: white;
+    background-color: black;
+}
+
+
 
 
 
 @media screen and (max-device-width: 480px) {
+    
+    
     .menu {
         display: none;
     }
-
+    
     nav li.klemphotos {
         font-size: 7em;
         margin-right: 0px;
         text-align: center;
         padding-top: 10px;
         padding-bottom: 20px;
+        display: none;
     }
+
+    nav li.logopng {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 60px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    
+    .imglogo {
+    height: 280px;
+    margin-top: -90px;}
 
     nav {
         position: fixed;
@@ -212,12 +289,22 @@ th {
         height: 730px;
     }
 
+    .imgaccueiltshirt {
+        height: 700px;
+        margin-left: 100px;
+    }
+
     .imgaccueilh {
         height: 480px;
     }
 
     .presentationposter {
         font-size: 2.5em;
+    }
+
+    .presentationtshirt {
+        font-size: 2.5em;
+        margin-top: 120px;
     }
 
     .contacter {
@@ -240,6 +327,14 @@ th {
         font-size: 2.5em;
     }
     
+    .detailtshirt {
+        text-align: left;
+        float: right;
+        flex: auto;
+        position: absolute;
+        font-size: 1.8em;
+    }
+
     .detailposterall {
         margin-top: 270px;
     }
@@ -247,7 +342,7 @@ th {
     table {
         border-width:2px; 
         border-style:solid; 
-        border-color:black;
+        border-color:white;
         width:100%;
         border-collapse: collapse;
     }
@@ -255,7 +350,7 @@ th {
     td {
         border-width:2px; 
         border-style:solid; 
-        border-color:black;
+        border-color:white;
         padding : 3px;
         padding-left: 20px;
         padding-right: 20px;
@@ -268,7 +363,7 @@ th {
     th {
         border-width:1px; 
         border-style:solid; 
-        border-color:black;
+        border-color:white;
         padding : 3px;
         padding-left: 20px;
         padding-right: 20px;
@@ -281,7 +376,25 @@ th {
         padding: 20px;
     }
 
+    select {
+        font-size: 1em;
+        border-radius: 10px;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: 'Bebas Kai', sans-serif;
+        border-color: white;
+        color: white;
+        background-color: black;
+    }
+
     .shootingtel {
+        display: none;
+        font-size: 5em;
+        float: left;
+        margin-top: -150px;
+    }
+
+    .tshirttel {
         display: inline-flex;
         font-size: 5em;
         float: left;
@@ -310,4 +423,14 @@ th {
         margin-left: 170px;
     }
     
+    .imgdetailtshirt {
+        height: 800px;
+        display: block;
+        margin-left: 50px;
+       
+    }
+
+    .detailtshirtall{
+        padding-top: 150px;
+    }
 }
