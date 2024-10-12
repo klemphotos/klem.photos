@@ -13,12 +13,23 @@
     src: url("./font/kenyancoffee.otf");
 }
 
+@font-face {
+    font-family:futura;
+    src: url("Futura\ Bold\ font.ttf");
+}
+
+@font-face {
+    font-family:montserrat;
+    src: url("Montserrat-Bold.ttf");
+}
+
+
 
 
 body {
-	background-color: #FDF4E3;
+	background-color: rgb(26, 26, 26);
 	font-family: 'Bebas Kai', sans-serif;
-    color: #ffd077;
+    color: white;
 }
 
 .imgaccueil {
@@ -44,7 +55,7 @@ div {
 
 nav
 {
-    background-color: #fadfac;
+    background-color: black;
     width: 101%;
     color: white;
 	margin-left: -10px;
@@ -86,9 +97,10 @@ nav a
 
 .menu :hover
 {
-    background-color: #fed78e;
+    background-color: white;
     transition: ease;
     transition-duration: 0.4s;
+    color: black;
 }
 
 .presentationposter :hover {
@@ -97,7 +109,7 @@ nav a
 
 a {
     text-decoration: none;
-    color: #ffd077;
+    color:white;
 }
 
 .imgaccueil:hover {
@@ -161,7 +173,7 @@ a {
 table {
     border-width:1px; 
     border-style:solid; 
-    border-color:black;
+    border-color:white;
     width:100%;
     border-collapse: collapse;
 }
@@ -169,7 +181,7 @@ table {
 td {
     border-width:1px; 
     border-style:solid; 
-    border-color:black;
+    border-color:white;
     padding : 3px;
     padding-left: 20px;
     padding-right: 20px;
@@ -182,7 +194,8 @@ td {
 th {
     border-width:1px; 
     border-style:solid; 
-    border-color:black;
+    border-color:white
+    ;
     padding : 3px;
     padding-left: 20px;
     padding-right: 20px;
@@ -194,8 +207,8 @@ th {
 
 .form {
     font-family: 'Bebas Kai', sans-serif;
-    background-color: #ffe8ba;
-    border-color: black;
+    background-color: black;
+    border-color: white;
     border-width: 1px;
     border-radius: 3px;
     padding: 5px;
@@ -213,6 +226,18 @@ th {
     height: 100px;
     display: none;
 }
+
+select {
+    font-size: 1em;
+    border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Bebas Kai', sans-serif;
+    border-color: white;
+    color: white;
+    background-color: black;
+}
+
 
 
 
@@ -283,7 +308,7 @@ th {
     }
 
     .contacter {
-        font-size: 3em;
+        font-size: 2em;
         display: inline-block;
         margin-top: 120px;
     }    
@@ -291,7 +316,7 @@ th {
     .imgdetail {
         height: 1200px;
         display: block;
-        margin-left: 250px;
+        margin-left: 50px;
     }
     
     .detailposter {
@@ -299,7 +324,7 @@ th {
         float: right;
         flex: auto;
         position: absolute;
-        font-size: 2.5em;
+        font-size: 1.8em;
     }
     
     .detailtshirt {
@@ -307,17 +332,22 @@ th {
         float: right;
         flex: auto;
         position: absolute;
-        font-size: 1.8em;
+        font-size: 1.7em;
+        
+        
+        font-family: 'montserrat', sans-serif;
     }
 
     .detailposterall {
-        margin-top: 270px;
+        margin-top: 200px;
+        
+        font-family: 'montserrat', sans-serif;
     }
     
     table {
         border-width:2px; 
         border-style:solid; 
-        border-color:black;
+        border-color:white;
         width:100%;
         border-collapse: collapse;
     }
@@ -325,7 +355,7 @@ th {
     td {
         border-width:2px; 
         border-style:solid; 
-        border-color:black;
+        border-color:white;
         padding : 3px;
         padding-left: 20px;
         padding-right: 20px;
@@ -338,7 +368,7 @@ th {
     th {
         border-width:1px; 
         border-style:solid; 
-        border-color:black;
+        border-color:white;
         padding : 3px;
         padding-left: 20px;
         padding-right: 20px;
@@ -349,6 +379,17 @@ th {
         border-radius: 10px;
         border-radius: 10px;
         padding: 20px;
+    }
+
+    select {
+        font-size: 1.2em;
+        border-radius: 10px;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: 'futura', sans-serif;
+        border-color: white;
+        color: white;
+        background-color: black;
     }
 
     .shootingtel {
@@ -378,13 +419,13 @@ th {
     .imgdetail34 {
         height: 1200px;
         display: block;
-        margin-left: 230px;
+        margin-left: 1px;
     }
 
     .imgdetailh {
-        height: 650px;
+        height: 600px;
         display: block;
-        margin-left: 170px;
+        margin-left: 1px;
     }
     
     .imgdetailtshirt {
@@ -396,5 +437,6 @@ th {
 
     .detailtshirtall{
         padding-top: 150px;
+        font-size: 1em;
     }
 }
