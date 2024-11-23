@@ -240,6 +240,14 @@ select {
 
 
 
+.imgvetementporte {
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 20px;
+}
+
+
 
 
 @media screen and (max-device-width: 480px) {
@@ -438,5 +446,12 @@ select {
     .detailtshirtall{
         padding-top: 150px;
         font-size: 1em;
+    }
+
+    .imgvetementporte {
+        height: 680px;
+        margin-top: 10px;
+        margin-left: 6px;
+        padding-left: 20px;
     }
 }
