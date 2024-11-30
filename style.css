@@ -256,6 +256,11 @@ select {
     .menu {
         display: none;
     }
+
+    nav {
+        position: fixed;
+        z-index: 3;
+    }
     
     nav li.klemphotos {
         font-size: 7em;
